@@ -20,27 +20,7 @@
 			<div class='col-md-4' id='addBtnDiv'>
 				<button class='btn btn-success btn-lg btn-block' id='addBtn'>Add</button>
 			</div>
-		<div>
-			<div class='well col-md-8 task-text'>
-				<p>Example task content text</p>
-			</div>
-			<div class="col-md-4 task-btn">
-				<button class='btn btn-lg btn-danger pull-right'>Delete</button>
-				<button class='btn btn-lg btn-primary pull-right'>Edit</button>
-				<button class='btn btn-lg btn-success pull-right'>Done</button>
-			</div>
-		</div>
-		<div>
-			<div class='well col-md-8 task-text'>
-				<p>Example task content text</p>
-			</div>
-			<div class="col-md-4 task-btn">
-				<button class='btn btn-lg btn-danger pull-right'>Delete</button>
-				<button class='btn btn-lg btn-primary pull-right'>Edit</button>
-				<button class='btn btn-lg btn-success pull-right'>Done</button>
-			</div>
-		</div>
-		<div>
+		<div ng-repeat='x in [1,2,3,4,5]'>
 			<div class='well col-md-8 task-text'>
 				<p>Example task content text</p>
 			</div>
@@ -52,9 +32,6 @@
 		</div>
 	</div>
 	
-	
-
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>

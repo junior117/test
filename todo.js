@@ -1,16 +1,12 @@
 angular.module('app', [])
 
 .controller('mainCtrl', function ($scope) {
-
+	$scope.btns = btns
 })
 
 
-var tasks = [
-	{ name: ""},
-	{ name: ""},
-	{ name: ""},
-	{ name: ""},
-	
-
-
-]
+var btns = {
+	Delete: "btn-danger",
+	Edit:"btn-primary",
+	Done: "btn-success"
+}
