@@ -7,7 +7,30 @@
 	<title>Document</title>
 </head>
 <body ng-app='app' ng-controller='mainCtrl'>
-	
+	<div class='row'>
+		<div class='col-md-1 col-md-offset-5' id='ulDiv'>	
+			<div class="dropdown">
+				<button type='button' 
+					class=' 
+						btn-lg 
+						dropdown-toggle
+						
+						'
+					data-toggle='dropdown'>
+					<span class='caret'></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li><a href="#">{{ drop[0].name }}</a></li>
+					<li><a href="#">{{ drop[1].name }}</a></li>
+					<li><a href="#">{{ drop[2].name }}</a></li>
+					<li><a href="#">{{ drop[3].name }}</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<h1>Headline h1</h1>
+
+
 	
 
 
