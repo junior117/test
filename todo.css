@@ -1,3 +1,21 @@
+.doneTasks .well {
+	background-color: #ccffb5;
+}
+
+
+.doneTasks {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+#errorMsg {
+	text-align: center;
+	border-radius: 20px;
+	margin: 50px 0px;
+
+}
+
 #addDiv {
 	padding: 0px;
 	font-size: 25px;
